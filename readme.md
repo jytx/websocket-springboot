@@ -1,0 +1,5 @@
+springboot整合websocket
+
+Websocketdemo01Application.java文件出直接点击右键运行即可
+
+默认运行端口是8001
