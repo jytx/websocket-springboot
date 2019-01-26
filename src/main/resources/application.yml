@@ -1,0 +1,17 @@
+server:
+  port: 8001
+spring:
+  ####配置 页面模板的参数，
+  freemarker:
+    charset: utf-8
+    suffix: .html
+    content-type: text/html
+    settings:
+      ##格式化这个项目中，页面数字的显示，小数位数最多显示10位
+      number_format: 0.##########
+  http:
+    encoding:
+      charset: UTF-8
+  #### 配置静态资源的地址。html文件中，可以直接使用/static/目录
+  resources:
+    static-locations: "classpath:/"
